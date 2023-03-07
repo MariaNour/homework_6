@@ -9,7 +9,7 @@ public class Training {
         int sum = a + b;
         System.out.println("Addition result: " + sum);
              // Сложение, чтоб в ответе было число с плавающей точкой
-        double sum1 = (double) e + f;
+        double sum1 = e + f;
         System.out.println("Addition result1: " + sum1);
 
 
@@ -17,7 +17,7 @@ public class Training {
         int sub = a - b;
         System.out.println("Subtraction result: " + sub);
               // Вычитание, чтоб в ответе было число с плавающей точкой
-        double sub1 = (double) e - f;
+        double sub1 = e - f;
         System.out.println("Subtraction result1: " + sub1);
 
 
@@ -42,20 +42,20 @@ public class Training {
 
         // инкремент
                      // Вернет старое значение a и после увеличит его на +1
-        System.out.println("Increment a++   = " +  (a++));
-        System.out.println("a   = " +  (a));
+        System.out.println("Increment a++ = " +  (a++));
+        System.out.println("a = " +  (a));
                      // Вернет новое значение a увеличенное на 1 (=а+1)
-        System.out.println("Increment ++a   = " +  (++a));
-        System.out.println("a   = " +  (a));
+        System.out.println("Increment ++a = " +  (++a));
+        System.out.println("a = " +  (a));
 
 
            // Декремент
                        // Вернет старое значение a и после уменьшит его на -1
-        System.out.println("Decrement a--   = " +  (a--));
-        System.out.println("a   = " +  (a));
+        System.out.println("Decrement a-- = " +  (a--));
+        System.out.println("a = " +  (a));
                       // Вернет новое значение a уменьшенное на 1 (=а-1)
-        System.out.println("Decrement --a   = " +  (--a));
-        System.out.println("a   = " +  (a));
+        System.out.println("Decrement --a = " +  (--a));
+        System.out.println("a = " +  (a));
 
 
         // Операторы сравнения
